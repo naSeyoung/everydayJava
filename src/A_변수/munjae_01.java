@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class munjae_01 {
 
-	// 마스터 커밋
+	// 마스터 커밋  마스터 커밋 재확인 
+	
 	
 	/*=> 메소드명 : public void example1(){}
 	=> 실행내용 : 키보드로 정수 두 개를 입력받아, 두 수의 합, 차, 곱
