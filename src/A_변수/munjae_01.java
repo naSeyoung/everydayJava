@@ -20,11 +20,12 @@ public class munjae_01 {
 	나누기한 몫 : 3   --> (값1 / 값2)
 	나누기한 나머지 : 2  --> (값1 % 값2)
 	*/
-		public class example1 { // 200306 다시공부시작
+		public class example1 { // 201126 다시공부시작  
 			
 			
 			
-			public static void main(String[] args) {
+			
+			public void main(String[] args) {
 			
 				Scanner sc = new Scanner(System.in);
 				
@@ -45,3 +46,5 @@ public class munjae_01 {
 			}
 			
 }
+}
+
