@@ -22,38 +22,21 @@ public class munjae_02 {
 	public void example2() {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("실수형으로 가로값을 입력하세요 : ");
 		double width = sc.nextFloat();
-		
 		System.out.println("실수형으로 세로값을 입력하세요 : ");
 		double height = sc.nextFloat();
-		
-		
 		double area = width * height; // 면적의 값은 
 		double circumference = (width + height) * 2; // 
-		
 		System.out.println("area의 값은  : " + area );
 		System.out.println("circumference의 값은 : " + circumference );
-
 		area = sc.nextFloat();
 		circumference = sc.nextFloat();
-		
-		
-		
-		
 	}
 	public static void main(String[] args) {
-
 		munjae_02 e2 = new munjae_02();
-		
 		e2.example2();
-		
-		
-		
-		
 	}
-
 }
 
 
