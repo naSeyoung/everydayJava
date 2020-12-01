@@ -1,5 +1,7 @@
 package B_조건문;
 
+import java.util.Scanner;
+
 public class munjae_03 {
 	/* <ex> 화면에 출력함
 	*** 초기 메뉴 ***
@@ -21,11 +23,27 @@ public class munjae_03 {
 	
 	public void munjae_03() {
 		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("메뉴를 입력하세요 : ");
 		
+		int num;
+		num = sc.nextInt();
+		
+		switch(num) {
+		case 1 : System.out.println("입력메뉴가 선택되었습니다."); break; 
+		case 2 : System.out.println("수정메뉴가 선택되었습니다."); break;
+		case 3 : System.out.println("수정메뉴가 선택되었습니다."); break;
+		case 4 : System.out.println("수정메뉴가 선택되었습니다."); break;
+		case 7 : System.out.println("수정메뉴가 선택되었습니다."); break;
+	    default : System.out.println("숫자 1,2,3,4,7만 가능합니다. "); break;
 	}
+	}
+	// break;를 하지 않으면 번호를 선택 할 시 전체 메뉴가 나옴. 
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		munjae_03 m3 = new munjae_03();
+		m3.munjae_03();
+			
 	}
 
 }
